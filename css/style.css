@@ -311,4 +311,10 @@ footer p {
 .more {
   display: none;
 }
+.org {
+  display: none;
+}
+.visible {
+  display: inline-block;
+}
 

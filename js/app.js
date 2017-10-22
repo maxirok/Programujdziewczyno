@@ -51,4 +51,36 @@
     btnUp.addEventListener('click', goUp);
 
 
+
+    /* #### ZADANIE 5 ###*/
+
+    var items = document.querySelectorAll('.org');
+    var dots = document.querySelectorAll('.dot');
+    dots[0].addEventListener('click', function(){
+      for (var i=0; i<dots.length; i++){
+         dots[i].classList.remove('active');
+         items[i].classList.remove('visible');
+      }
+      this.classList.add('active');
+      items[0].classList.add('visible');
+    });
+  dots[1].addEventListener('click', function(){
+      for (var i=0; i<dots.length; i++){
+         dots[i].classList.remove('active');
+         items[i].classList.remove('visible');
+      }
+      this.classList.add('active');
+      items[1].classList.add('visible');
+    });
+  dots[2].addEventListener('click', function(){
+      for (var i=0; i<dots.length; i++){
+         dots[i].classList.remove('active');
+         items[i].classList.remove('visible');
+      }
+      this.classList.add('active');
+      items[2].classList.add('visible');
+    });
+
+
+
     });
