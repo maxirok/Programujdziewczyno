@@ -15,6 +15,7 @@
      	 })
 
  /* #### ZADANIE 2 ####*/
+
     var readMore = document.querySelectorAll('.read-more');
   
 
@@ -32,36 +33,22 @@
         readMore[i].addEventListener('click', showHiden);
   }
       
-      
-     
-     
-    
+
+	 /* #### ZADANIE 3 ###*/
+
+    var navFix = document.querySelector('.navbar-fixed-top');
+    window.addEventListener('scroll', function() {
+      navFix.style.borderBottom = '3px solid green';
+    });
 
 
+    /* #### ZADANIE 4 ###*/
 
-
-     
-
-      // var readMore = document.querySelectorAll('.read-more');
-
-      // // for (var i=0; i<readMore.length; i++){
-      // 	readMore[0].addEventListener('click', function(){
-      // 		var textArea = this.previousElementSibling;
-      // 		if (textArea.style.display='none')
-      // 		textArea.style.display = "block";
-      // 		this.innerHTML = 'mniej<span class="glyphicon glyphicon-chevron-up"></span>';
-      // 		readMore[0].addEventListener('click', function(){
-      // 			var textArea = this.previousElementSibling;
-      // 			textArea.style.display = "none";
-      // 			this.innerHTML = 'więcej<span class="glyphicon glyphicon-chevron-down"></span>';
-      // 			})
-      // 	})
-      // // }
-
-	
-
-
-
+    var btnUp = document.querySelector('.up');
+    function goUp (){
+            window.scroll(0,0);
+          }
+    btnUp.addEventListener('click', goUp);
 
 
     });
