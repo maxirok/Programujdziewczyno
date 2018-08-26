@@ -1,4 +1,8 @@
-# Programuj, dziewczyno! - Warsztaty z podstaw front-endu 
+# Workshop effect from Code Girl with Coders Lab - my first programing Workshop 
+In this repository I will show the results of my work as part of this course.
+
+
+Programuj, dziewczyno! - Warsztaty z podstaw front-endu 
 
 ## Jak pracować podczas warsztatu?
 
